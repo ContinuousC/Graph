@@ -1,0 +1,22 @@
+[package]
+name = "graph"
+description = "Manage pointer-based graph structures."
+version = "0.1.7"
+license = "Apache-2.0"
+edition = "2021"
+publish = ["si"]
+
+[features]
+serde = ["dep:serde"]
+tsify = ["dep:tsify", "dep:wasm-bindgen", "serde"]
+unsafe = []
+
+[dependencies]
+serde = { version = "1.0.175", optional = true }
+wasm-bindgen = { version = "0.2.87", optional = true }
+typed-arena = "2.0.2"
+
+tsify = { registry = "si", version = "0.4.5", optional = true }
+
+[dev-dependencies]
+criterion = "0.5.1"
