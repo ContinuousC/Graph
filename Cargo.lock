@@ -317,18 +317,18 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.66"
+version = "1.0.93"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "18fb31db3f9bddb2ea821cde30a9f70117e3f119938b5ee630b7403aa6e2ead9"
+checksum = "60946a68e5f9d28b0dc1c21bb8a97ee7d018a8b322fa57838ba31cc878e22d99"
 dependencies = [
  "unicode-ident",
 ]
 
 [[package]]
 name = "quote"
-version = "1.0.33"
+version = "1.0.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5267fca4496028628a95160fc423a33e8b2e6af8a5302579e322e4b520293cae"
+checksum = "0e4dccaaaf89514f546c693ddc140f729f958c247918a13380cccc6078391acc"
 dependencies = [
  "proc-macro2",
 ]
@@ -425,9 +425,9 @@ dependencies = [
 
 [[package]]
 name = "serde_derive_internals"
-version = "0.28.0"
+version = "0.29.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e578a843d40b4189a4d66bba51d7684f57da5bd7c304c64e14bd63efbef49509"
+checksum = "18d26a20a969b9e3fdf2fc2d9f21eda6c40e2de84c9408bb5d3b05d499aae711"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -447,9 +447,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.29"
+version = "2.0.98"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c324c494eba9d92503e6f1ef2e6df781e78f6a7705a0202d9801b198807d518a"
+checksum = "36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -468,9 +468,8 @@ dependencies = [
 
 [[package]]
 name = "tsify"
-version = "0.4.5"
-source = "registry+ssh://git@sigit01/~/Development/ContinuousC/Ktra-registry"
-checksum = "39ca0de7ffe66f24432d77e9d2b1ce0321323c0bfb96b5a997c429f67c8dad9d"
+version = "0.4.8"
+source = "git+https://github.com/ContinuousC/Tsify.git?rev=de64626ba4dd8a3abca8b8b2dd082334890ec60c#de64626ba4dd8a3abca8b8b2dd082334890ec60c"
 dependencies = [
  "gloo-utils",
  "serde",
@@ -481,9 +480,8 @@ dependencies = [
 
 [[package]]
 name = "tsify-macros"
-version = "0.4.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a94b0f0954b3e59bfc2c246b4c8574390d94a4ad4ad246aaf2fb07d7dfd3b47"
+version = "0.4.8"
+source = "git+https://github.com/ContinuousC/Tsify.git?rev=de64626ba4dd8a3abca8b8b2dd082334890ec60c#de64626ba4dd8a3abca8b8b2dd082334890ec60c"
 dependencies = [
  "proc-macro2",
  "quote",
